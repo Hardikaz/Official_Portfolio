@@ -1,0 +1,40 @@
+
+:root {
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-heading{
+    font-size: 2em;
+}
+.nav-menu a{
+    margin:10px;
+    font-size: 1.2em; 
+}
+
+.nav-button{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: var(--theme-color);
+    color: aliceblue;
+    font-size: 1em;
+}
+.nav-button:hover{
+    background-color: var(--dark-blue);
+    transition: 0.3s;
+}
