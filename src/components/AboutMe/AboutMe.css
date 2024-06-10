@@ -1,0 +1,70 @@
+:root {
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+    --light-blue: #043159;
+}
+
+.AboutMe-page{
+    background-color: var(--dark-blue);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;    
+}
+
+.AboutMe-page-left{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px;
+}
+
+.AboutMe-page-right{
+    /* background-color: aqua; */
+    margin: 20px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutMe-page-right-heading{
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 140px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.AboutMe-page-right-para{
+    font-size: 20px;
+}
+
+.AboutMe-page-right-para p{
+    margin-bottom: 10px;
+}
+
+.AboutMe-page-right-info{
+    margin-top: 10px;
+}
+
+.AboutMe-page-right-info svg{
+    background-color: var(--dark-blue);
+    border-radius: none;
+    margin-right: 5px;
+    color: var(--theme-color);
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+    align-items: center;
+}
