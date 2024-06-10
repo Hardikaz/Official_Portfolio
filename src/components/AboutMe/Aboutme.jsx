@@ -1,5 +1,6 @@
 import React from 'react'
 import "./AboutMe.css"
+import Myskills from "../Myskills/Myskills.jsx"
 import Img from "../../assets/sb.jpg"
 const Aboutme = () => {
   return (
@@ -52,22 +53,13 @@ const Aboutme = () => {
 	      <circle cx={256} cy={192} r={48} fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={32}></circle>
         </svg> Location: Ahmedabad, Gujarat, India
         </div>
-
-        <div className="AboutMe-page-right-info item">
-        
-        </div>
-
-        <div className="AboutMe-page-right-info item">
-        
-        </div>
-
-        
-
         </div>
 
         </div>
         
       </div>
+
+      <Myskills />
     </>
   )
 }

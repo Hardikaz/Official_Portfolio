@@ -29,6 +29,7 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
+    width: 35vw;
 }
 
 .AboutMe-page-right-heading{
