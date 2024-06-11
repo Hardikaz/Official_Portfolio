@@ -5,7 +5,8 @@
 }
 
 .AboutMe-page{
-    background-color: var(--dark-blue);
+    /* background-color: var(--dark-blue); */
+    background:linear-gradient(to right,var(--dark-blue),rgba(0, 0, 0, 0.963));
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -66,6 +67,6 @@
 .item{
     display: flex;
     flex-direction: row;
-    font-size: 23px;
+    font-size: 19px;
     align-items: center;
 }

@@ -11,6 +11,7 @@
     color: aliceblue;  
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .MyskillsPage-heading{
