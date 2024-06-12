@@ -4,12 +4,12 @@ const Myskills = () => {
   return (
    <>
     <div className="MyskillsPage">
-    <div className="MyskillsPage-heading">MY SKILLS</div>
-    <div className="MySkillsPage-para">This is my techstack :-) </div>
-    <div className="MySkillsIconContainer">
+    <div className="MyskillsPage-heading margin-20">MY SKILLS</div>
+    <div className="MySkillsPage-para margin-20">This is my techstack :-) </div>
+    <div className="MySkillsIconContainer margin-20">
 
       {/* html */}
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
+  <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
 	<path fill="#e44d26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198l-45.019 12.48z"></path>
 	<path fill="#f16529" d="m64 116.8l36.378-10.086l8.559-95.878H64z"></path>
 	<path fill="#ebebeb" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692l3.382 37.927H64zm0 35.743l-.061.017l-15.327-4.14l-.979-10.975H33.816l1.928 21.609l28.193 7.826l.063-.017z"></path>

@@ -1,0 +1,52 @@
+:root {
+
+}
+
+.Projectcard{
+    height: 350px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.Projectcard-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.Projectcard .Projectcard-img img{
+    height: 200px;
+    width: 335px;
+    border-radius: 10px;
+}
+.Projectcard-title{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Projectcard-para{
+    margin: 10px;
+    color: rgba(48, 47, 47, 0.693);
+}
+
+.Projectcard-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Projectcard-buttons button{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}

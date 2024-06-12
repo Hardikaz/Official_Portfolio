@@ -1,0 +1,47 @@
+:root {
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+    --light-blue: #043159;
+}
+
+.MyProjectPage{
+    background: linear-gradient(to right,var(--light-blue),rgba(0, 0, 0, 0.963));
+    /* height: 100vh; */
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MyProject-heading{
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 140px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 1px;   
+
+    margin-top: 10%;
+}
+
+.MyProject-para{
+font-size: 20px;
+margin-top: 0.5%;
+font-weight: 500;
+letter-spacing: 1px;
+}
+
+.MyProjects-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.marginleft-20{
+    margin-left: 5%;
+}

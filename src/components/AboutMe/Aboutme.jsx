@@ -59,7 +59,7 @@ const Aboutme = () => {
         
       </div>
 
-      <Myskills />
+      {/* <Myskills /> */}
     </>
   )
 }
