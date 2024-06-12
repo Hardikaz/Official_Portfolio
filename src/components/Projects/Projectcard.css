@@ -1,5 +1,7 @@
 :root {
-
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+    --light-blue: #043159;
 }
 
 .Projectcard{
@@ -23,7 +25,7 @@
 
 .Projectcard .Projectcard-img img{
     height: 200px;
-    width: 335px;
+    width: 350px;
     border-radius: 10px;
 }
 .Projectcard-title{
@@ -49,4 +51,25 @@
     margin: 10px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.projectcard-livebtn{
+background-color: var(--theme-color);
+color: aliceblue;
+letter-spacing: 1.5px;
+}
+
+.projectcard-livebtn:hover{
+    background-color: var(--light-blue);
+    transition: 0.5s;
+}
+
+.projectcard-viewbtn{
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+.projectcard-viewbtn:hover{
+    background-color: rgb(152, 154, 156);
+    transition: 0.5s;
 }

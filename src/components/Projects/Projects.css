@@ -24,7 +24,7 @@
     letter-spacing: 2px;
     padding: 1px;   
 
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .MyProject-para{
@@ -39,7 +39,7 @@ letter-spacing: 1px;
     grid-template-columns: 400px 400px 400px;
     align-items: center;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .marginleft-20{

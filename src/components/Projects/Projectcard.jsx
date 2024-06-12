@@ -15,8 +15,8 @@ const Projectcard = (props) => {
                 {props.para}
             </div>
             <div className="Projectcard-buttons">
-              <button>View</button>
-              <button>Live</button>
+              <button className="projectcard-viewbtn">View</button>
+              <button className="projectcard-livebtn">Live</button>
             </div>
         </div>
     </>
