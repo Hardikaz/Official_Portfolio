@@ -1,8 +1,13 @@
 import React from 'react'
-
+import "./contactpage.css"
 const Contactme = () => {
   return (
-    <div>Contactme</div>
+    <>
+      <div className="contactPage">
+        <div className="contactPage-left"></div>
+        <div className="contactPage-right"></div>
+      </div>
+    </>
   )
 }
 
