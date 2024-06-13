@@ -24,6 +24,12 @@
     margin: 20px;
 }
 
+.AboutMe-page img{
+    height: 500px;
+width: 500px;
+border-radius: 50px;
+}
+
 .AboutMe-page-right{
     /* background-color: aqua; */
     margin: 20px;

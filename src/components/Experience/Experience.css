@@ -1,0 +1,42 @@
+:root {
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+    --light-blue: #043159;
+    --new-color:#07233b;
+}
+
+.Experiencepage{
+    background: linear-gradient(to right,var(--light-blue),rgba(0, 0, 0, 0.963));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.Experiencepage-heading{
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top:5%;
+    padding: 2px;
+}
+.Experiencepage-para{
+font-size: 45px;
+letter-spacing: 2px;
+margin-top: 0.5%;
+font-weight: 500;
+letter-spacing: 1px;
+}
+
+.Experiencepage-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
