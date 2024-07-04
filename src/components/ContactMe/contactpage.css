@@ -4,3 +4,120 @@
     --light-blue: #043159;
 }
 
+.contactPage{
+    background:linear-gradient(to right,var(--dark-blue),rgba(0, 0, 0, 0.963));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.contactPage-container{
+    background-color: var(--light-blue);
+ height: 60vh;
+ width: 60vw;
+
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.contactPage-left{
+    /* background-color: aqua; */
+    height: 50vh;
+    width: 20vw;
+}
+
+.contactPage-left-heading{
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top:5%;
+    padding: 2px;
+}
+
+.contactPage-left-para{
+/* font-size: 20px; */
+/* letter-spacing: 2px; */
+margin-top: 2%;
+font-weight: 500;
+letter-spacing: 1px;
+}
+
+.map{
+    padding: 2px;
+}
+.contactPage-right{
+    /* background-color: aquamarine; */
+    height: 50vh;
+    width: 30vw;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPage-form-list{
+
+}
+
+.contactPage-right-form li{
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     margin: 8px;
+}
+.contactPage-right-form label{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.contactPage-right-form input{
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: var(--dark-blue);
+    border: none;
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.contactPage-right-form textarea{
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: var(--dark-blue);
+    border: none;
+    margin-top: 5px;
+    color: aliceblue;
+}
+.form-name-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactPage-right-form button{
+    margin-left: 6px;
+    height: 40px;
+    width: 90px;
+    border-radius: 14px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: var(--theme-color);
+    color: aliceblue;
+    font-size: 600;
+    border: none;
+}
+
+.contactPage-right-form button:hover{
+    background-color: var(--light-blue);
+    border: 2px solid aliceblue;
+    transition: 0.3s;
+
+}
