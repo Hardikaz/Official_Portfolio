@@ -13,7 +13,7 @@ const Contactme = () => {
           Lets's Connect
          </div>
          <div className="contactPage-left-para">
-          Hey ya let's build something together!Feel free to connect with your amazing ideas which we can implement together or if you need me regarding any project. Thanks 
+          Hey ya let's build something together! Feel free to connect with your amazing ideas which we can implement together or if you need me regarding any project. Thanks!!! 
          </div>
          {/* <div className="left-icons-item">
          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ const Contactme = () => {
          </svg>
          </div> */}
          <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.61870640467!2d77.8770494215199!3d30.325353814763336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1678710126158!5m2!1sen!2sin"  referrerpolicy="no-referrer-when-downgrade" alt="Map"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.61870640467!2d77.8770494215199!3d30.325353814763336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1678710126158!5m2!1sen!2sin"  referrerpolicy="no-referrer-when-downgrade" alt="Map" height="200px" width="500px"></iframe>
             </div>
          </div>
         </div>
@@ -52,8 +52,7 @@ const Contactme = () => {
            <li>
             <label>Write your idea here :</label>
             <textarea rows="4" cols="35" placeholder="lorem ipsum sit amet">
-
-            </textarea>
+           </textarea>
            </li>
            <button type="submit">Submit</button>
            </ul>
