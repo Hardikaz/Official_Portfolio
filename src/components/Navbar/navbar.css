@@ -41,6 +41,7 @@
     background-color: var(--dark-blue);
     transition: 0.3s;
     border-color: aliceblue;
+    cursor: pointer;
 }
 .nav-link{
     text-decoration: none;

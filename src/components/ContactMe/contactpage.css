@@ -121,6 +121,8 @@ margin-bottom: 20px;
     color: aliceblue;
     font-size: 600;
     border: none;
+    border: 2px solid var(--theme-color);
+    cursor: pointer;
 }
 
 .contactPage-right-form button:hover{

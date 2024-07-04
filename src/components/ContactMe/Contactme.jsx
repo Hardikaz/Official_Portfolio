@@ -50,8 +50,8 @@ const Contactme = () => {
            </li>
 
            <li>
-            <label>Write your idea here :</label>
-            <textarea rows="4" cols="35" placeholder="lorem ipsum sit amet">
+            <label>Write your ideas here :</label>
+            <textarea rows="4" cols="50" placeholder="lorem ipsum sit amet">
            </textarea>
            </li>
            <button type="submit">Submit</button>

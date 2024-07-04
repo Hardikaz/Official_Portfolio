@@ -60,6 +60,7 @@
     background-color: var(--dark-blue);
     transition: 0.3s;
     border-color: aliceblue;
+    cursor: pointer;
 }
 
 .HomePage-button-containers{
