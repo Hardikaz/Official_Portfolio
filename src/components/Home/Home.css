@@ -8,7 +8,7 @@
 .HomePage{
     /* background-color: var(--dark-blue); */
     background:linear-gradient(to right,var(--dark-blue),rgba(0, 0, 0, 0.963));
-    height: 100vh;
+    height: 110vh;
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
@@ -110,4 +110,36 @@
 height: 500px;
 width: 500px;
 border-radius: 50px;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 800px)
+{
+    .HomePage{
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .HomePage-left{
+        margin: 20px;
+    }
+
+    .HomePage-left-content{
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin: 7px 0px;
+    }
+    .HomePage-button-containers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .HomePage-right img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50px;
+        margin: 20px;
+        }
 }
