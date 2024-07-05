@@ -46,3 +46,14 @@ letter-spacing: 1px;
 .marginleft-20{
     margin-left: 5%;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 800px){
+
+    .MyProjects-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        margin: 20px;
+    }
+}

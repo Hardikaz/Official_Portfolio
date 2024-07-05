@@ -73,3 +73,20 @@ letter-spacing: 1.5px;
     background-color: rgb(152, 154, 156);
     transition: 0.5s;
 }
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 800px) {
+    
+    .Projectcard{
+        height: 300px;
+        width: 300px;
+        padding: 5px;
+    }
+
+    .Projectcard .Projectcard-img img{
+        height: 150px;
+        width: 300px;
+        border-radius: 10px;
+    }
+}
