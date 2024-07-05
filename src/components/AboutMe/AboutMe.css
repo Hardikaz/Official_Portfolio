@@ -36,7 +36,7 @@ border-radius: 50px;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    width: 35vw;
+    /* width: 35vw; */
 }
 
 .AboutMe-page-right-heading{
@@ -75,4 +75,19 @@ border-radius: 50px;
     flex-direction: row;
     font-size: 19px;
     align-items: center;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 800px) {
+    .AboutMe-page{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .AboutMe-page img{
+    height: 300px;
+    width: 300px;
+    }
+    
 }
