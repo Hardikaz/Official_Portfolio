@@ -7,11 +7,11 @@ const Contactme = () => {
        <div className="contactPage-container">
        
         <div className="contactPage-left">
-         
-         <div className="contactPage-left-icons">
-         <div className="contactPage-left-heading">
+        <div className="contactPage-left-heading">
           Lets's Connect
          </div>
+         <div className="contactPage-left-icons">
+         
          <div className="contactPage-left-para">
           Hey ya let's build something together! Feel free to connect with your amazing ideas which we can implement together or if you need me regarding any project. Thanks!!! 
          </div>
