@@ -47,3 +47,31 @@
     text-decoration: none;
     color: aliceblue;
 }
+
+.navbar svg{
+    background: none;
+    height: 30px;
+    width: 30px;
+    border: 2px solid aliceblue;
+    border-radius: 50%;
+    padding: 2px;
+    display: none;
+    box-shadow: 0 0 20px var(--theme-color);
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 800px) 
+{
+
+    .nav-menu{
+        display: none;
+    }
+    .navbar svg{
+        display: block;
+    }
+
+    .nav-button{
+        display: none;
+    }
+}
