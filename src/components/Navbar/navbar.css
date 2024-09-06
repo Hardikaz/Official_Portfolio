@@ -71,7 +71,7 @@
 }
 
 .show{
-    display: flex;
+    display: none;
 }
 
 
@@ -103,5 +103,9 @@
         font-size: 25px;
         color: aliceblue;
         font-weight: bolder;
+    }
+
+    .show{
+        display: flex;
     }
 }

@@ -1,0 +1,126 @@
+:root {
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+    --light-blue: #043159;
+    --new-color:#07233b;
+}
+
+/* .FooterPage{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+} */
+
+/* .FooterPage-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .FootPage-1-para-1{
+    font-size: 40px;
+    letter-spacing: 1px;
+} */
+
+/* .FootPage-1-para-2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: var(--theme-color);
+    padding: 0px 10px;
+} */
+
+/* .FootPage-1{
+    margin: 10px 100px;
+} */
+/* .FootPage-2 svg{
+    background-color: black; */
+    /* margin: 0px 100px; */
+    /* padding: 0px 10px;
+} */
+/* .FootPage-3 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+}
+.FootPage-3 svg{
+    background-color: black;
+}
+.FootPage-3 input{
+    background: none;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    color: aliceblue;
+    padding: 0px 10px;
+}
+
+.svg-lc:hover{
+    color: chocolate;
+}
+
+.svg-cc:hover{
+    color: rgb(144, 108, 251);
+}
+
+.svg-gfg:hover{
+    color: green;
+}
+
+.svg-search{
+    padding: 5px;
+}
+
+.svg-search:hover{
+ background-color: var(--theme-color);
+ color: black;
+ transition: 0.3s;
+} */
+
+.FooterPage{
+    background-color: #090a0c;
+    color: aliceblue;
+}
+
+.FooterPageContainer-up{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.FooterPage-left{
+    padding-left: 20px;
+}
+.FooterPage-left,.FooterPage-right{
+    margin: 20px;
+}
+
+.FooterPageConatiner-down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterPageConatiner-down{
+  padding-bottom: 20px;
+}
+
+.FooterPage-right svg{
+    background-color: rgba(0, 0, 0, 0.769);
+    margin: 0px 10px;
+}
+
+.svg-lc:hover{
+    color: orange;
+}
+
+.svg-cc:hover{
+    color: purple;
+}
+
+.svg-gfg:hover{
+    color: green;
+}
