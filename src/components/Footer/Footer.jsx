@@ -62,7 +62,7 @@ const Footer = () => {
       </div>
       </div>
       <div className='FooterPageConatiner-down'>
-        <h2>Made with 💖 </h2>
+        <h2>Made with 💖</h2>
         <h4>by Hardik Sharma</h4>
       </div>
       </div>

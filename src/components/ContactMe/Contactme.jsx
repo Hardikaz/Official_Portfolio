@@ -1,6 +1,46 @@
 import React from 'react'
+import {useState} from 'react'
 import "./contactpage.css"
 const Contactme = () => {
+ 
+  const[fname,setFname]=useState("");
+  const[lname,setLname]=useState("");
+  const[email,setEmail]=useState("");
+  const[msg,setMsg]=useState("");
+
+  async function sendMsg(ev){
+    ev.preventDefault();
+        const response=await fetch('http://localhost:5000/send',{
+            method: 'POST',
+            body: JSON.stringify({fname,lname,email,msg}),
+            headers: {'Content-Type':'application/json'},
+        });
+
+        if(response.status===200){
+            alert('registration successful');
+        } else {
+            alert('registration failed');
+        }
+
+        const responseMsg=await fetch('http://localhost:5000/sendEmail',{
+           method:'POST',
+           headers:{
+            "Content-Type":"application/json",
+           },
+           body:JSON.stringify({email}), 
+        })
+
+        if(responseMsg.ok)
+        {
+          alert('Mail sent successfully');
+        }
+
+        else
+        {
+          alert('Mail failed');
+        }
+    }
+
   return (
     <>
       <div className="contactPage">
@@ -33,25 +73,33 @@ const Contactme = () => {
         </div>
         <div className="contactPage-right">
         <div className="contactPage-right-form">
-          <form action='#' method="POST" className="form">
-          <ul className="contactPage-form-list">
-          <div className="form-name-section">
-           <li><label>First Name* : </label>
-           <input type="text" placeholder="John"></input>
-           </li> 
+          
+        <form action='#' method="POST" className="form" onSubmit={sendMsg}>
+         
+           <ul className="contactPage-form-list">
+            
+             <div className="form-name-section">
+               
+               <li><label>First Name* : </label>
+               <input 
+               type="text" 
+               placeholder="John" 
+               value={fname} 
+               onChange={ev=>setFname(ev.target.value)}></input>
+               </li> 
 
            <li><label>Last Name : </label>
-           <input type="text" placeholder="Doe"></input>
+           <input type="text" placeholder="Doe" value={lname} onChange={ev=>setLname(ev.target.value)}></input>
            </li> 
            </div>
            <li>
             <label>Email* :</label>
-            <input type="email" placeholder="johndoe@gmail.com"></input>
+            <input type="email" placeholder="johndoe@gmail.com" value={email} onChange={ev=>setEmail(ev.target.value)}></input>
            </li>
 
            <li>
             <label>Write your ideas here :</label>
-            <textarea rows="4" cols="50" placeholder="lorem ipsum sit amet">
+            <textarea rows="4" cols="50" placeholder="lorem ipsum sit amet" value={msg} onChange={ev=>setMsg(ev.target.value)}>
            </textarea>
            </li>
            <button type="submit">Submit</button>
