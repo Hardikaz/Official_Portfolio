@@ -5,6 +5,7 @@ import Projects from "./components/Projects/Projects"
 import Experience from "./components/Experience/Experience"
 import Contact from "./components/ContactMe/Contactme"
 import Footer from "./components/Footer/Footer"
+import Response from "./components/Response/Response"
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import './App.css';
 
@@ -29,6 +30,10 @@ const router=createBrowserRouter([
     path: "/contact",
     element:<><Navbar/><Contact /><Footer/></>
   },
+  {
+    path:"/response",
+    element:<><Navbar/><Response /><Footer /></>  
+   }
 ])
 function App() {
   

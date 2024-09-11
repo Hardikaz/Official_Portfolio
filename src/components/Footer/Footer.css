@@ -83,6 +83,7 @@
 .FooterPage{
     background-color: #090a0c;
     color: aliceblue;
+    position: relative;
 }
 
 .FooterPageContainer-up{
@@ -123,4 +124,24 @@
 
 .svg-gfg:hover{
     color: green;
+}
+
+.adminIcon svg{
+    background-color: rgba(0, 0, 0, 0.769);
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    
+}
+
+.adminIcon svg:hover{
+    transition: 0.5s;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color: #090a0c;
+    
 }

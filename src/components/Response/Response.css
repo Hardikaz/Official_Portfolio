@@ -1,0 +1,44 @@
+:root {
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+    --light-blue: #043159;
+    --new-color:#07233b;
+}
+
+.ResponseTable{
+    /* background-color: var(--dark-blue); */
+    
+    background: linear-gradient(to right,var(--light-blue),rgba(0, 0, 0, 0.963));
+    min-height: 70vh;
+    color: aliceblue;  
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ResponseTable-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid aliceblue;
+    width: 80vw;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.DeleteTable svg{
+    background-color: rgba(0, 0, 0, 0.963);
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.DeleteTable svg:hover{
+    border: 1px solid aliceblue;
+}
