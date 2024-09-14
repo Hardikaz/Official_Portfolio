@@ -33,8 +33,9 @@
 .projectView-Box-right-grid{
     display: grid;
     grid-template-columns: auto auto;
-   margin-top: 20px;
-}
+
+    margin-top: 20px;
+} 
 
 .projectView-Box-right .projectView-Box-heading {
     font-weight: bold;
@@ -48,4 +49,30 @@
 
 .grid-containers{
     margin: 10px;
+} 
+
+@media only screen and (max-width: 900px){
+    .ProjectViewPage{
+        z-index: 1;
+    }
+    .ProjectViewPage-Box{
+        height: 90vh;
+        flex-direction: column;
+    }
+    .ProjectViewPage-Box-left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .ProjectViewPage-Box-left img{
+        height: 200px;
+        width: 250px;
+        margin: 2px;
+    }
+
+    .projectView-Box-right-grid{
+        display: flex;
+        flex-direction: column;
+    }
 }
