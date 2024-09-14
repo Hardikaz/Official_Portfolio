@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 import "./Home.css"
 import Img from "../../assets/arnold.jpg"
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
       <div className="HomePage-left-content-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
       
       <div className="HomePage-button-containers">
-      <button className="Home-button">Let's Connect</button>
+      <NavLink to="/contact"><button className="Home-button">Let's Connect</button></NavLink>
 
       <div className="HomePage-social-icons">
       {/* <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">

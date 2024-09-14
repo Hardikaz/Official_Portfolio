@@ -1,0 +1,51 @@
+
+.ProjectViewPage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: black;
+}
+.ProjectViewPage-Box{
+    /* height: 60vh; */
+    width: 70vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: rows;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.ProjectViewPage-Box-left img{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.projectView-Box-right-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+   margin-top: 20px;
+}
+
+.projectView-Box-right .projectView-Box-heading {
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.projectView-Box-right{
+    margin: 10px;
+}
+
+.grid-containers{
+    margin: 10px;
+}

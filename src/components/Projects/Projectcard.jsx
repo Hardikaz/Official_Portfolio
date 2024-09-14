@@ -1,22 +1,24 @@
 import React from 'react'
 import "./Projectcard.css"
-const Projectcard = (props) => {
+import ProjectViewPage from './ProjectViewPage'
+
+const Projectcard = ({card,onViewClick}) => {
   return (
     <>
         <div className="Projectcard">
              <div className="Projectcard-img">
-                <img src={props.src}/>
+                <img src={card.src}/>
             </div>
             
             <div className="Projectcard-title">
-                {props.title}
+                {card.title}
             </div>
             <div className="Projectcard-para">
-                {props.para}
+                {card.para}
             </div>
             
             <div className="Projectcard-buttons">
-              <button className="projectcard-viewbtn">View</button>
+              <button className="projectcard-viewbtn" onClick={()=>onViewClick(card)}>View</button>
               <button className="projectcard-livebtn">Live</button>
             </div>
         </div>

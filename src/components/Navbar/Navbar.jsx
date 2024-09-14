@@ -39,7 +39,7 @@ const Navbar = () => {
         </svg>) }
         </div>
 
-        <button className="nav-button">Hire Me</button>
+        <NavLink to="/contact"><button className="nav-button">Hire Me</button></NavLink>
         
         </div>
 
