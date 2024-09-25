@@ -1,0 +1,79 @@
+
+:root {
+    --dark-blue: #06223a;
+    --theme-color: #0788ff;
+    --light-blue: #043159;
+}
+
+.Login-response-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right,var(--dark-blue),rgba(0, 0, 0, 0.963));
+}
+
+.form{
+    background-color: var(--light-blue);
+    height: 50vh; 
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form ul li{
+   
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form ul li input{
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: var(--dark-blue);
+    border: none;
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.form ul li label{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.loginResponseBtn{
+    margin-top: 20px;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: var(--theme-color);
+    color: aliceblue;
+    font-size: 600;
+    border: none;
+    border: 2px solid var(--theme-color);
+    cursor: pointer;
+}
+
+.loginResponseBtn:hover{
+    background-color: var(--light-blue);
+    border: 2px solid aliceblue;
+    transition: 0.3s;
+}
+
+.form p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    margin-top: 20px;
+}

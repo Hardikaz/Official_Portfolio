@@ -6,7 +6,7 @@ const Footer = () => {
   const navigate = useNavigate();
 
   function handleClick(){
-   navigate('/response')
+   navigate('/login-response')
   }
   return (
     // <div className="FooterPage">

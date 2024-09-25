@@ -6,7 +6,9 @@ import Experience from "./components/Experience/Experience"
 import Contact from "./components/ContactMe/Contactme"
 import Footer from "./components/Footer/Footer"
 import Response from "./components/Response/Response"
+import LoginResponse from "./components/LoginResponse/LoginResponse"
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import { UserContextProvider } from "./UserContext"
 import './App.css';
 
 const router=createBrowserRouter([
@@ -33,6 +35,10 @@ const router=createBrowserRouter([
   {
     path:"/response",
     element:<><Navbar/><Response /><Footer /></>  
+   },
+   {
+    path:"/login-response",
+    element:<><Navbar/><LoginResponse/><Footer /></>
    }
 ])
 function App() {
@@ -40,7 +46,11 @@ function App() {
   return (
     // <div className="App">
     // </div>
-    <RouterProvider router={router} />
+    <><UserContextProvider>
+      <RouterProvider router={router} />
+      </UserContextProvider>
+    </>
+    
   );
 }
 

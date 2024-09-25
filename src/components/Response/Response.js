@@ -17,6 +17,8 @@ const Response = () => {
   return (
      <>
      <div className='ResponseTable'>
+     
+        {responses.length==0 && <h1>No Responses Yet !</h1>}
         {responses.length>0 && responses.map(response=>(
         <ResponseTable key={response._id} {...response} />        ))}
         </div>
