@@ -39,7 +39,11 @@ const router=createBrowserRouter([
    {
     path:"/login-response",
     element:<><Navbar/><LoginResponse/><Footer /></>
-   }
+   },
+   {
+    basename: "/Official_Portfolio"
+  }
+   
 ])
 function App() {
   

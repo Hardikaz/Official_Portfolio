@@ -83,7 +83,7 @@ catch(e){
            
            </ul>
            <button className='loginResponseBtn' onClick={handleSubmit}>Submit</button>
-           <p>Login as <span onClick={guestLogin}>GUEST</span></p>
+           <p>Login as <span style={{"color":"#0788ff","cursor":"grab"}} onClick={guestLogin}>GUEST</span></p>
            </form>
 
            

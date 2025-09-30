@@ -14,7 +14,7 @@ const Aboutme = () => {
         
         <div className="AboutMe-page-right-heading">ABOUT ME</div>
 
-        <div className="AboutMe-page-right-para"><p>I am Hardik Sharma, a second-year student at DIT University studying BTech Computer Science and Engineering. I have keen interest in Web Development and programming languages like C, Java and JavaScript.</p>
+        <div className="AboutMe-page-right-para"><p>I am Hardik Sharma, a final year student at DIT University studying BTech Computer Science and Engineering. I have keen interest in Web Development and programming languages like C, Java and JavaScript.</p>
         
         <p>
          In addition to strong problem-solving abilities, I am well-versed in data structures and algorithms. I don't hesitate to face new challenges and am always eager to learn new technology which are newly introduced in the growing IT world.
