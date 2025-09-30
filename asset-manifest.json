@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Official_Portfolio/static/css/main.7b1711d6.css",
+    "main.js": "/Official_Portfolio/static/js/main.da748cf2.js",
+    "static/media/weatherapp.png": "/Official_Portfolio/static/media/weatherapp.f8ee4668fae466063fce.png",
+    "static/media/githubapp.png": "/Official_Portfolio/static/media/githubapp.2f53b62a2e9b8f5e87fb.png",
+    "static/media/arnold.jpg": "/Official_Portfolio/static/media/arnold.9b6b1cab4de98cad86c5.jpg",
+    "static/media/calculatorapp.png": "/Official_Portfolio/static/media/calculatorapp.b307a295780c5978fcaf.png",
+    "static/media/dashboard.png": "/Official_Portfolio/static/media/dashboard.90f85f37dc9a67474ad6.png",
+    "static/media/FrontEnd.png": "/Official_Portfolio/static/media/FrontEnd.8beef33dfedf6f6a2450.png",
+    "static/media/sb.jpg": "/Official_Portfolio/static/media/sb.1b46e5702840ef555eb0.jpg",
+    "index.html": "/Official_Portfolio/index.html",
+    "main.7b1711d6.css.map": "/Official_Portfolio/static/css/main.7b1711d6.css.map",
+    "main.da748cf2.js.map": "/Official_Portfolio/static/js/main.da748cf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b1711d6.css",
+    "static/js/main.da748cf2.js"
+  ]
+}
