@@ -11,40 +11,18 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { UserContextProvider } from "./UserContext";
 import './App.css';
 
-// IMPORTANT: Replace "your-repo-name" with the actual GitHub repo name
 const router = createBrowserRouter(
   [
-    {
-      path: "/",
-      element: <><Navbar /><Home /><Footer /></>,
-    },
-    {
-      path: "/about",
-      element: <><Navbar /><About /><Footer /></>,
-    },
-    {
-      path: "/projects",
-      element: <><Navbar /><Projects /><Footer /></>,
-    },
-    {
-      path: "/experience",
-      element: <><Navbar /><Experience /><Footer /></>,
-    },
-    {
-      path: "/contact",
-      element: <><Navbar /><Contact /><Footer /></>,
-    },
-    {
-      path: "/response",
-      element: <><Navbar /><Response /><Footer /></>,
-    },
-    {
-      path: "/login-response",
-      element: <><Navbar /><LoginResponse /><Footer /></>,
-    },
+    { path: "/", element: <><Navbar /><Home /><Footer /></> },
+    { path: "/about", element: <><Navbar /><About /><Footer /></> },
+    { path: "/projects", element: <><Navbar /><Projects /><Footer /></> },
+    { path: "/experience", element: <><Navbar /><Experience /><Footer /></> },
+    { path: "/contact", element: <><Navbar /><Contact /><Footer /></> },
+    { path: "/response", element: <><Navbar /><Response /><Footer /></> },
+    { path: "/login-response", element: <><Navbar /><LoginResponse /><Footer /></> },
   ],
   {
-    basename: "/Official_Portfolio", // ✅ This ensures correct paths on GitHub Pages
+    basename: "/Official_Portfolio", // 👈 Important
   }
 );
 
